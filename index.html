@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alexa</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- TODO -->
+    <!-- loader -->
+    <div class="page-loader">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div class="page">
+      <!-- header -->
+      <header class="header">
+        <div class="header-logo">Alexa</div>
+        <nav class="header-links">
+          <a href="" class="link active">Home</a>
+          <a href="" class="link">About</a>
+          <a href="" class="link">Skills</a>
+          <a href="" class="link">Services</a>
+          <a href="" class="link">Portfolio</a>
+          <a href="" class="link">Contact me</a>
+          <div class="mode">
+            <i class="bi bi-moon-stars"></i>
+          </div>
+        </nav>
+      </header>
+      <main class="main">
+        <!-- home -->
+        <div class="home">
+          <div class="home-text">
+            <div class="container">
+              <div class="icon">
+                <i class="bi bi-github"></i>
+                <i class="bi bi-linkedin"></i>
+                <i class="bi bi-instagram"></i>
+              </div>
+              <div class="text">
+                <h1>Hi, I'am Alexa</h1>
+                <h4>Frontend developer</h4>
+                <p>
+                  High level experience in web design and development knowledge,
+                  producing quality work.
+                </p>
+                <div class="container">
+                  <button>
+                    Contact Me
+                    <p class="bi bi-send"></p>
+                  </button>
+                  <div class="mouse">
+                    <i class="bi bi-mouse"></i>
+                    <p>Scroll down</p>
+                    <i class="bi bi-arrow-down-short"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="home-img">
+            <img src="./img/profile-merge.png" alt="" />
+          </div>
+        </div>
+        <!-- about -->
+        <div class="about">
+          <div class="title">
+            <h2>About Me</h2>
+            <p>My information</p>
+          </div>
+          <div class="container">
+            <div class="img">
+              <img src="./img/about.jpg" alt="" />
+            </div>
+            <div class="information">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                quam debitis dolores repellendus earum amet corrupti nulla
+                laborum.
+              </p>
+              <div class="container">
+                <div class="number">
+                  <div class="text">
+                    <h4>08+</h4>
+                    <span>Years</span>
+                    <span>experience</span>
+                  </div>
+                </div>
+                <div class="number">
+                  <div class="text">
+                    <h4>12+</h4>
+                    <span>Completed</span>
+                    <span>projects</span>
+                  </div>
+                </div>
+                <div class="number">
+                  <div class="text">
+                    <h4>01+</h4>
+                    <span>companies</span>
+                    <span>worked</span>
+                  </div>
+                </div>
+              </div>
+              <button>Download CV <i class="bi bi-download"></i></button>
+            </div>
+          </div>
+        </div>
+        <!-- skills -->
+        <div class="skills">
+          <div class="title">
+            <h2>Skills</h2>
+            <p>My thechnologi level</p>
+          </div>
+          <div class="container-1">
+            <div class="skill">
+              <div class="icon"><i class="bi bi-braces"></i></div>
+              <div class="content">
+                <div class="show" onclick="skillClick('.ul1')">
+                  <div class="text">
+                    <h4>Frontend developer</h4>
+                    <p>More than 4 years</p>
+                  </div>
+                  <div class="icon"><i class="bi bi-chevron-down"></i></div>
+                </div>
+                <ul class="ul ul1">
+                  <li>
+                    HTML <span>90%</span>
+                    <div class="progress">
+                      <div class="percent">percent of progress</div>
+                    </div>
+                  </li>
+                  <li>
+                    CSS <span>90%</span>
+                    <div class="progress">
+                      <div class="percent">percent of progress</div>
+                    </div>
+                  </li>
+                  <li>
+                    JavaScript <span>60%</span>
+                    <div class="progress">
+                      <div class="percent" style="width: 40%">
+                        percent of progress
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    React <span>85%</span>
+                    <div class="progress">
+                      <div class="percent" style="width: 15%">
+                        percent of progress
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="icon"><i class="bi bi-vector-pen"></i></div>
+              <div class="content">
+                <div class="show" onclick="skillClick('.ul2')">
+                  <div class="text">
+                    <h4>Designer</h4>
+                    <p>More than 5 years</p>
+                  </div>
+                  <div class="icon"><i class="bi bi-chevron-down"></i></div>
+                </div>
+                <ul class="ul ul2">
+                  <li>
+                    HTML <span>90%</span>
+                    <div class="progress">
+                      <div class="percent">percent of progress</div>
+                    </div>
+                  </li>
+                  <li>
+                    CSS <span>90%</span>
+                    <div class="progress">
+                      <div class="percent">percent of progress</div>
+                    </div>
+                  </li>
+                  <li>
+                    JavaScript <span>60%</span>
+                    <div class="progress">
+                      <div class="percent" style="width: 40%">
+                        percent of progress
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    React <span>85%</span>
+                    <div class="progress">
+                      <div class="percent" style="width: 15%">
+                        percent of progress
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="container-2">
+            <div class="skill">
+              <div class="icon"><i class="bi bi-hdd-stack"></i></div>
+              <div class="content">
+                <div class="show" onclick="skillClick('.ul3')">
+                  <div class="text">
+                    <h4>Backend developer</h4>
+                    <p>More than 2 years</p>
+                  </div>
+                  <div class="icon"><i class="bi bi-chevron-down"></i></div>
+                </div>
+                <ul class="ul ul3">
+                  <li>
+                    HTML <span>90%</span>
+                    <div class="progress">
+                      <div class="percent">percent of progress</div>
+                    </div>
+                  </li>
+                  <li>
+                    CSS <span>90%</span>
+                    <div class="progress">
+                      <div class="percent">percent of progress</div>
+                    </div>
+                  </li>
+                  <li>
+                    JavaScript <span>60%</span>
+                    <div class="progress">
+                      <div class="percent" style="width: 40%">
+                        percent of progress
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    React <span>85%</span>
+                    <div class="progress">
+                      <div class="percent" style="width: 15%">
+                        percent of progress
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="icon"><i class="bi bi-cup-hot"></i></div>
+              <div class="content">
+                <div class="show" onclick="skillClick('.ul4')">
+                  <div class="text">
+                    <h4>Backend developer</h4>
+                    <p>More than 2 years</p>
+                  </div>
+                  <div class="icon"><i class="bi bi-chevron-down"></i></div>
+                </div>
+                <ul class="ul ul4">
+                  <li>
+                    HTML <span>90%</span>
+                    <div class="progress">
+                      <div class="percent">percent of progress</div>
+                    </div>
+                  </li>
+                  <li>
+                    CSS <span>90%</span>
+                    <div class="progress">
+                      <div class="percent">percent of progress</div>
+                    </div>
+                  </li>
+                  <li>
+                    JavaScript <span>60%</span>
+                    <div class="progress">
+                      <div class="percent" style="width: 40%">
+                        percent of progress
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    React <span>85%</span>
+                    <div class="progress">
+                      <div class="percent" style="width: 15%">
+                        percent of progress
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- qualification -->
+        <div class="qualification">
+          <div class="title">
+            <h2>Qualification</h2>
+            <p>My work and educational history</p>
+          </div>
+          <div class="container">
+            <div class="educational active">
+              <i class="bi bi-mortarboard"></i>
+              <p>Educational</p>
+            </div>
+            <div class="work">
+              <i class="bi bi-briefcase"></i>
+              <p>Work</p>
+            </div>
+          </div>
+          <div class="line-list list-1">
+            <div class="item item-1">
+              <div class="item-line">
+                <h4>learn HTML</h4>
+                <p>youtube neon learn</p>
+                <p>2022/12/03</p>
+              </div>
+              <div class="item-line">
+                <h4>learn Js</h4>
+                <p>youtube neon learn</p>
+                <p>2022/12/03</p>
+              </div>
+            </div>
+            <div class="line">
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+            </div>
+            <div class="item item-2">
+              <div class="item-line">
+                <h4>learn Css</h4>
+                <p>youtube neon learn</p>
+                <p>2022/12/03</p>
+              </div>
+              <div class="item-line">
+                <h4>learn React</h4>
+                <p>youtube neon learn</p>
+                <p>2022/12/03</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- services -->
+        <div class="services">
+          <div class="title">
+            <h2>Services</h2>
+            <p>My service</p>
+          </div>
+          <div class="container">
+            <div class="ui">
+              <i class="bi bi-bezier"></i>
+              <h4>
+                Ui / Ux <br />
+                Designer
+              </h4>
+              <p>
+                more information
+                <i class="bi bi-arrow-right-short"></i>
+              </p>
+            </div>
+            <div class="code">
+              <i class="bi bi-code-slash"></i>
+              <h4>
+                Frontend <br />
+                Developer
+              </h4>
+              <p>
+                more information
+                <i class="bi bi-arrow-right-short"></i>
+              </p>
+            </div>
+            <div class="design">
+              <i class="bi bi-pen"></i>
+              <h4>
+                Graphic <br />
+                Designer
+              </h4>
+              <p>
+                more information
+                <i class="bi bi-arrow-right-short"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- portfolio -->
+        <div class="portfolio">
+          <div class="title">
+            <h2>Portfolio</h2>
+            <p>My portfolio</p>
+          </div>
+          <div class="swiper-container">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide portfolio-item">
+                  <div class="container">
+                    <div class="img">
+                      <img src="img/portfolio1.jpg" alt="" />
+                    </div>
+                    <div class="content">
+                      <h4>Ui / Ux design</h4>
+                      <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Tenetur alias laborum commodi, voluptas veniam
+                        quod velit provident. Cupiditate, laudantium cum.
+                      </p>
+                      <button> Visit demo <i class="bi bi-arrow-right-short"></i></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide portfolio-item">
+                    <div class="container">
+                        <div class="img">
+                          <img src="img/portfolio2.jpg" alt="" />
+                        </div>
+                        <div class="content">
+                          <h4>Ui / Ux design</h4>
+                          <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Tenetur alias laborum commodi, voluptas veniam
+                            quod velit provident. Cupiditate, laudantium cum.
+                          </p>
+                          <button> Visit demo <i class="bi bi-arrow-right-short"></i></button>
+                        </div>
+                      </div>
+                </div>
+                <div class="swiper-slide portfolio-item">
+                    <div class="container">
+                        <div class="img">
+                          <img src="img/portfolio3.jpg" alt="" />
+                        </div>
+                        <div class="content">
+                          <h4>Ui / Ux design</h4>
+                          <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Tenetur alias laborum commodi, voluptas veniam
+                            quod velit provident. Cupiditate, laudantium cum.
+                          </p>
+                          <button> Visit demo <i class="bi bi-arrow-right-short"></i></button>
+                        </div>
+                      </div>
+                </div>
+              </div>
+              <!-- pagination -->
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+        <!-- info -->
+        <div class="info">
+          <div class="container">
+            <div class="content">
+              <h3>Lorem ipsum dolor. Lorem.</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed
+                maiores consectetur incidunt.
+              </p>
+              <button>book a website</button>
+            </div>
+            <div class="img">
+              <img src="img/project.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <!-- testimonial -->
+        <div class="testimonial">
+          <div class="title">
+            <h2>Testimonial</h2>
+            <p>your comments</p>
+          </div>
+          <div class="swiper-container">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide comment">
+                  <div class="container">
+                    <img src="img/testimonial1.jpg" alt="" />
+                    <div class="content">
+                      <h5>john dan</h5>
+                      <p>user</p>
+                    </div>
+                    <div class="star">
+                      <i class="bi bi-star-fill active"></i>
+                      <i class="bi bi-star-fill active"></i>
+                      <i class="bi bi-star-fill active"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Sequi quod libero quas amet rerum temporibus perferendis
+                    consequatur labore. Saepe amet ullam possimus ex natus
+                    itaque odio laboriosam fugiat quia nemo.
+                  </p>
+                </div>
+                <div class="swiper-slide comment">
+                  <div class="container">
+                    <img src="img/testimonial2.jpg" alt="" />
+                    <div class="content">
+                      <h5>john dan</h5>
+                      <p>user</p>
+                    </div>
+                    <div class="star">
+                      <i class="bi bi-star-fill active"></i>
+                      <i class="bi bi-star-fill active"></i>
+                      <i class="bi bi-star-fill active"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Sequi quod libero quas amet rerum temporibus perferendis
+                    consequatur labore. Saepe amet ullam possimus ex natus
+                    itaque odio laboriosam fugiat quia nemo.
+                  </p>
+                </div>
+                <div class="swiper-slide comment">
+                  <div class="container">
+                    <img src="img/testimonial3.jpg" alt="" />
+                    <div class="content">
+                      <h5>john dan</h5>
+                      <p>user</p>
+                    </div>
+                    <div class="star">
+                      <i class="bi bi-star-fill active"></i>
+                      <i class="bi bi-star-fill active"></i>
+                      <i class="bi bi-star-fill active"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Sequi quod libero quas amet rerum temporibus perferendis
+                    consequatur labore. Saepe amet ullam possimus ex natus
+                    itaque odio laboriosam fugiat quia nemo.
+                  </p>
+                </div>
+              </div>
+              <!-- pagination -->
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+        <!-- contact me -->
+        <div class="contact">
+          <div class="title">
+            <h2>Contact Me</h2>
+            <p>send a message for me</p>
+          </div>
+          <div class="container">
+            <div class="icon">
+              <div class="item">
+                <i class="bi bi-telephone"></i>
+                <div class="content">
+                  <h4>Call Me</h4>
+                  <p>0939****707</p>
+                </div>
+              </div>
+              <div class="item">
+                <i class="bi bi-envelope"></i>
+                <div class="content">
+                  <h4>Email</h4>
+                  <p>amir.amiri.web.design@gmail.com</p>
+                </div>
+              </div>
+              <div class="item">
+                <i class="bi bi-geo-alt"></i>
+                <div class="content">
+                  <h4>Location</h4>
+                  <p>iran , tehran , ponak , alexa co.</p>
+                </div>
+              </div>
+            </div>
+            <div class="form">
+              <form action="">
+                <div class="container">
+                  <div>
+                    <input type="text" name="first_name" id="first_name" />
+                    <span class="place"> First name </span>
+                  </div>
+                  <div>
+                    <input type="text" name="last_name" id="last_name" />
+                    <span class="place"> Last name </span>
+                  </div>
+                </div>
+                <div>
+                  <input
+                    style="display: block; width: 100%; height: 80px"
+                    type="email"
+                    name="email"
+                    id="email"
+                  />
+                  <span class="place"> Your email </span>
+                </div>
+                <div>
+                  <textarea
+                    style="display: block; width: 100%; height: 150px"
+                    name=""
+                    id=""
+                  ></textarea>
+                  <span class="place"> Your message </span>
+                </div>
+                <input type="submit" value="send your message" />
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- footer -->
+        <footer>
+          <div class="container">
+            <div>
+              <h1>Alexa</h1>
+              <p>open source web designer</p>
+            </div>
+            <div>
+              <nav>
+                <a href="">Services</a>
+                <a href="">About me</a>
+                <a href="">Qualification</a>
+              </nav>
+            </div>
+            <div>
+              <i class="bi bi-send"></i>
+              <i class="bi bi-chat-text"></i>
+              <i class="bi bi-envelope"></i>
+            </div>
+          </div>
+          <div>@ copyright 2022 website</div>
+        </footer>
+      </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <noscript> pleaze turn javascript</noscript>
+  </body>
+</html>
